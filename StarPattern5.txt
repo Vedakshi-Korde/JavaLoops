@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class StarPattern5{
+	//prints star pattern (Right-Aligned)
+	public static void main(String args[]){
+
+		Scanner s= new Scanner(System.in);
+		int n = s.nextInt();
+		//outer for loop for number of rows
+		for(int i=1;i<=n;i++){
+			//inner for loop for printing spaces
+			for(int j=i;j<n;j++){
+				System.out.print(" ");
+			}
+			//this loop will prit stars
+			for(int j=1;j<=i;j++){
+				System.out.print("*");
+			}
+			//move to next line when loop condition gets false
+			System.out.println();
+		}
+	}
+}
