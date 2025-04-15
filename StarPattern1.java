@@ -3,7 +3,7 @@ class StarPattern1{
 	public static void main(String args[]){
 		//Input from user to ask how many stars the user wants to print
 		Scanner s = new Scanner(System.in);
-		System.out.println("How many stars you wnat : ");
+		System.out.println("How many stars you want : ");
 		int n = s.nextInt();
 		//outer for loop to print only those number of rows that user wants to print
 		for(int i=1;i<=n;i++){
