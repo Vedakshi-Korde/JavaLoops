@@ -27,7 +27,7 @@ class ReverseNumber{
 			
 			n=n/10;
 		}
-		// prints resulting value i.e. reverse value
+		// prints resulting value i.e. 54321
 		System.out.println("Reverse number = " +rev);
 	}
 }
